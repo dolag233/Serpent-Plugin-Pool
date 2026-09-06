@@ -41,8 +41,8 @@ const catalog = {
   plugins,
   removed,
 };
-const serialized = `${JSON.stringify(catalog, null, 2)}\n`;
-const digest = createHash('sha256').update(serialized).digest('hex');
+const serialized = `${JSON.stringify(catalog, null, 2)}\n`.replace(/\r\n/g, '\n');
+const digest = createHash('sha256').update(serialized, 'utf8').digest('hex');
 
 if (check) {
   const current = readFileSync(catalogPath, 'utf8');
@@ -70,6 +70,6 @@ if (check) {
   process.exit(0);
 }
 
-writeFileSync(catalogPath, serialized);
-writeFileSync(digestPath, `${digest}\n`);
+writeFileSync(catalogPath, Buffer.from(serialized, 'utf8'));
+writeFileSync(digestPath, Buffer.from(`${digest}\n`, 'utf8'));
 console.log(`wrote ${path.basename(catalogPath)} (${plugins.length} plugins)`);
