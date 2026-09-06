@@ -1,0 +1,11 @@
+{
+  "name": "serpent-plugin-pool",
+  "private": true,
+  "description": "Official Serpent plugin directory",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "catalog": "node scripts/generate-catalog.mjs",
+    "catalog:check": "node scripts/generate-catalog.mjs --check"
+  }
+}

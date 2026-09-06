@@ -1,0 +1,24 @@
+{
+  "id": "com.dolag.serpent.media-converter",
+  "tier": "first-party",
+  "repo": "dolag233/Serpent-Plugin-MediaConverter",
+  "releaseTag": "v0.1.0",
+  "version": "0.1.0",
+  "runtimeMode": "unrestricted",
+  "minSerpent": ">=0.1.0 <1.0.0",
+  "name": {
+    "zh-CN": "媒体转换",
+    "en": "Media Converter"
+  },
+  "description": {
+    "zh-CN": "使用宿主 FFmpeg 批量转码视频、压缩图片和视频体积。",
+    "en": "Batch video conversion and image/video compression using the host FFmpeg."
+  },
+  "assets": [
+    {
+      "platform": "any",
+      "fileName": "com.dolag.serpent.media-converter-0.1.0-any.zip",
+      "sha256": "7675cd692519545ca8ba2a1f90b8fe782ff7bedff2649d1f17ab85f7a5b9eba8"
+    }
+  ]
+}
