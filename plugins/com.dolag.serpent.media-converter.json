@@ -7,12 +7,12 @@
   "runtimeMode": "unrestricted",
   "minSerpent": ">=0.1.0 <1.0.0",
   "name": {
-    "zh-CN": "媒体转换",
+    "zh-CN": "媒体转换器",
     "en": "Media Converter"
   },
   "description": {
-    "zh-CN": "使用宿主 FFmpeg 批量转码视频、压缩图片和视频体积。",
-    "en": "Batch video conversion and image/video compression using the host FFmpeg."
+    "zh-CN": "批量对多媒体资产进行压缩、转码",
+    "en": "Batch compress and transcode media assets."
   },
   "assets": [
     {
