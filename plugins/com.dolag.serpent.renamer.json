@@ -1,0 +1,24 @@
+{
+  "id": "com.dolag.serpent.renamer",
+  "tier": "first-party",
+  "repo": "dolag233/Serpent-Plugin-Renamer",
+  "releaseTag": "v0.1.0",
+  "version": "0.1.0",
+  "runtimeMode": "unrestricted",
+  "minSerpent": ">=0.2.0 <1.0.0",
+  "name": {
+    "zh-CN": "批量重命名",
+    "en": "Batch Renamer"
+  },
+  "description": {
+    "zh-CN": "预览并批量重命名选中的资产",
+    "en": "Preview and batch-rename selected assets."
+  },
+  "assets": [
+    {
+      "platform": "any",
+      "fileName": "com.dolag.serpent.renamer-0.1.0-any.zip",
+      "sha256": "88ba6f4c60631cc2a4f5f845deaa395c5888081a21a5ab0bfaea302fd44d9913"
+    }
+  ]
+}

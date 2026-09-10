@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-06T13:04:45.000Z",
+  "generatedAt": "2026-09-10T04:41:55.520Z",
   "plugins": [
     {
       "id": "com.dolag.serpent.image-upscaler",
@@ -52,6 +52,30 @@
           "platform": "any",
           "fileName": "com.dolag.serpent.media-converter-0.1.0-any.zip",
           "sha256": "0adeee6f04689deebe609cdb4e07831a5e63f2fe409b8b687fce7c6ad99d5195"
+        }
+      ]
+    },
+    {
+      "id": "com.dolag.serpent.renamer",
+      "tier": "first-party",
+      "repo": "dolag233/Serpent-Plugin-Renamer",
+      "releaseTag": "v0.1.0",
+      "version": "0.1.0",
+      "runtimeMode": "unrestricted",
+      "minSerpent": ">=0.2.0 <1.0.0",
+      "name": {
+        "zh-CN": "批量重命名",
+        "en": "Batch Renamer"
+      },
+      "description": {
+        "zh-CN": "预览并批量重命名选中的资产",
+        "en": "Preview and batch-rename selected assets."
+      },
+      "assets": [
+        {
+          "platform": "any",
+          "fileName": "com.dolag.serpent.renamer-0.1.0-any.zip",
+          "sha256": "88ba6f4c60631cc2a4f5f845deaa395c5888081a21a5ab0bfaea302fd44d9913"
         }
       ]
     }
