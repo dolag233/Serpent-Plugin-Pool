@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-10T04:41:55.520Z",
+  "generatedAt": "2026-09-19T10:33:02.614Z",
   "plugins": [
     {
       "id": "com.dolag.serpent.image-upscaler",
@@ -59,8 +59,8 @@
       "id": "com.dolag.serpent.renamer",
       "tier": "first-party",
       "repo": "dolag233/Serpent-Plugin-Renamer",
-      "releaseTag": "v0.1.0",
-      "version": "0.1.0",
+      "releaseTag": "v0.1.1",
+      "version": "0.1.1",
       "runtimeMode": "unrestricted",
       "minSerpent": ">=0.2.0 <1.0.0",
       "name": {
@@ -74,8 +74,8 @@
       "assets": [
         {
           "platform": "any",
-          "fileName": "com.dolag.serpent.renamer-0.1.0-any.zip",
-          "sha256": "88ba6f4c60631cc2a4f5f845deaa395c5888081a21a5ab0bfaea302fd44d9913"
+          "fileName": "com.dolag.serpent.renamer-0.1.1-any.zip",
+          "sha256": "e48067bb0cc3d8dabb88bf970f461be4bdf55f49b6b092035464b52aa4a33da0"
         }
       ]
     }
