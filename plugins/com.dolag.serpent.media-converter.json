@@ -2,8 +2,8 @@
   "id": "com.dolag.serpent.media-converter",
   "tier": "first-party",
   "repo": "dolag233/Serpent-Plugin-MediaConverter",
-  "releaseTag": "v0.1.0",
-  "version": "0.1.0",
+  "releaseTag": "v0.1.1",
+  "version": "0.1.1",
   "runtimeMode": "unrestricted",
   "minSerpent": ">=0.1.0 <1.0.0",
   "name": {
@@ -17,8 +17,8 @@
   "assets": [
     {
       "platform": "any",
-      "fileName": "com.dolag.serpent.media-converter-0.1.0-any.zip",
-      "sha256": "0adeee6f04689deebe609cdb4e07831a5e63f2fe409b8b687fce7c6ad99d5195"
+      "fileName": "com.dolag.serpent.media-converter-0.1.1-any.zip",
+      "sha256": "41e8ff5fbf837494fdfdb933cfd001e3c36c6d378f1504f3d5be5f1e38da3bb3"
     }
   ]
 }
